@@ -1,0 +1,58 @@
+.backdrop {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  background-color: rgba(35, 46, 63, 0.7);
+}
+
+.root {
+  display: flex;
+  position: absolute;
+  z-index: 100;
+  top: 50%;
+  left: 50%;
+  flex: 0 1 100%;
+  flex-direction: column;
+  width: 95vw;
+  height: 100%;
+  margin: 0 auto;
+  transform: translate(-50%, -50%);
+  border-radius: 2px;
+  outline: 0;
+  background-color: #ffffff;
+  box-shadow: '0 24px 64px 16px rgba(33,33,33, 0.2)';
+  color: #212121;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  background-color: #cccccc;
+}
+
+.closeButton {
+  position: absolute;
+  background-color: transparent;
+  border: 1px solid;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.closeIcon {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 15px;
+  right: 7px;
+  transform: translateY(-50%);
+}
